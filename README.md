@@ -1,2 +1,2 @@
-# [dedypurnama712](https://dedypurnama712.github.io)
-My Personal Portfolio
+# [My Personal Portfolio](https://dedypurnama712.github.io)
+
