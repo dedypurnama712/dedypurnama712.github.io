@@ -381,3 +381,21 @@ curl http://localhost:8080/
 
 **Submitted by**: Copilot  
 **Repository**: dedypurnama712/dedypurnama712.github.io
+
+---
+
+## Collaboration Setup
+
+To add `admin@simplejourney.co.id` as a collaborator:
+
+1. Go to repository Settings → Collaborators
+2. Click "Add people"
+3. Search for their GitHub username (not email)
+4. Set permission level to "Maintain" or "Admin"
+5. They'll receive an invitation
+
+**Note**: If you have their GitHub username, run:
+```bash
+gh api -X PUT /repos/dedypurnama712/dedypurnama712.github.io/collaborators/{USERNAME} \
+  -f permission=maintain
+```
