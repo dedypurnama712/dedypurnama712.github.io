@@ -1,0 +1,31 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+
+# Dependencies
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+app
+app-new*
+app-v*
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Temp files
+temp/
+tmp/
+*.log
