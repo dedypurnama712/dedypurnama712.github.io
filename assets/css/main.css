@@ -755,10 +755,25 @@ section,
 
 .resume .resume-item ul {
   padding-left: 20px;
+  list-style: disc !important;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.resume .resume-item ul li::marker {
+  font-size: 8px;
+}
+
+.skills ul {
+  list-style: disc !important;
+  padding-left: 20px;
+}
+
+.skills ul li::marker {
+  font-size: 8px;
 }
 
 .resume .resume-item:last-child {
@@ -1267,9 +1282,3 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
